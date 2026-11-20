@@ -1,6 +1,6 @@
 # G7_CS108-OOP-inventory-management-system
 
-Person A: Data classes (model)
+## Person A: Data classes (model)
 
 -Product abstract class: private fields and validation in the setters and constructor (no negative price, stock never below 0)
 
@@ -11,7 +11,7 @@ StockTransaction class
 
 -When finished, A has the lightest load, so A also takes sort and the summary report inside Inventory
 
-Person B: Inventory logic (the heaviest part)
+## Person B: Inventory logic (the heaviest part)
 
 -Product array: add (reject duplicate IDs, handle a full array), find, search, update, delete (shift elements so there are no gaps or nulls)
 
@@ -19,7 +19,7 @@ Person B: Inventory logic (the heaviest part)
 
 -The recursive method, e.g. recursive total inventory value or recursive search
 
-Person C: InventoryApp (UI)
+## Person C: InventoryApp (UI)
 
 -Input helpers: readInt, readDouble, readNonEmpty, readYesNo, readMenuChoice(min, max). Each must retry on bad input and never crash.
 
