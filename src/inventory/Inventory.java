@@ -1,8 +1,8 @@
 package inventory;
-
 import java.util.ArrayList;
-import model.Product;
-import model.StockTransaction;
+
+import Product;
+import StockTransaction;
 
 public class Inventory {
     private ArrayList<Product> products; //holds all product types

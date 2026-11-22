@@ -1,5 +1,4 @@
 package model;
-
 public class Drink extends Product {
     private int volumeMl;
 
