@@ -1,3 +1,5 @@
+package model;
+
 public class HouseholdItem extends Product {
     private String usageType;
 
