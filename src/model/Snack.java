@@ -32,4 +32,13 @@ public class Snack extends Product {
     public String getSpecificFieldValue() {
         return String.valueOf(weightGrams);
     }
+
+    @Override
+    public void setSpecificFieldValue(String value) {
+        try {
+            setWeightGrams(Double.parseDouble(value.trim()));
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("Weight must be a number.");
+        }
+    }
 }

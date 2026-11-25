@@ -18,6 +18,7 @@ public abstract class Product {
     public abstract String getCategory();
     public abstract String getCategoryDetails();
     public abstract String getSpecificFieldValue();
+    public abstract void setSpecificFieldValue(String value);
 
     // Shared business logic
     public double getInventoryValue() {
