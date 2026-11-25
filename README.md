@@ -11,7 +11,7 @@ StockTransaction class
 
 -When finished, A has the lightest load, so A also takes sort and the summary report inside Inventory
 
-## Person B: Inventory logic (the heaviest part)
+## Person B: Inventory logic (heavy part)
 
 -Product array: add (reject duplicate IDs, handle a full array), find, search, update, delete (shift elements so there are no gaps or nulls)
 
